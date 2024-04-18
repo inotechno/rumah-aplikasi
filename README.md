@@ -1,64 +1,33 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Rumah Aplikasi
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Deskripsi
+Rumah Aplikasi adalah aplikasi berbasis CMS (Sistem Manajemen Konten) yang memungkinkan perusahaan untuk menyimpan dan menampilkan portofolio proyek yang telah dikerjakan. Dibangun dengan tujuan untuk memberikan kemudahan bagi perusahaan untuk mempromosikan karya-karya mereka kepada klien potensial atau masyarakat umum.
 
-## About Laravel
+## Fitur
+1. **Manajemen Portofolio:** Pengguna dapat dengan mudah menambah, mengedit, dan menghapus proyek-proyek yang ingin ditampilkan dalam portofolio perusahaan.
+2. **Kategori Proyek:** Proyek-proyek dapat dikelompokkan ke dalam kategori-kategori yang sesuai, memudahkan pengguna untuk menavigasi dan menemukan proyek yang diminati.
+3. **Tata Letak Responsif:** Antarmuka pengguna responsif memastikan pengalaman pengguna yang konsisten dan optimal, baik dari desktop maupun perangkat mobile.
+4. **Pencarian Proyek:** Fitur pencarian memungkinkan pengguna untuk mencari proyek berdasarkan judul atau kategori.
+5. **Galeri Gambar:** Setiap proyek dapat disertai dengan galeri gambar untuk menampilkan lebih banyak detail atau variasi dari proyek tersebut.
+6. **Kustomisasi Tampilan:** Pengguna dapat mengatur tata letak dan gaya tampilan portofolio sesuai dengan preferensi dan merek perusahaan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Demo
+Untuk melihat demo dari Rumah Aplikasi, Anda dapat mengunjungi [rumahaplikasi.co.id](https://rumahaplikasi.co.id).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Teknologi yang Digunakan
+- **Framework Laravel:** Framework PHP yang kuat dan ekstensibel untuk membangun aplikasi web modern.
+- **Bootstrap:** Framework front-end yang responsif dan mudah digunakan untuk desain web yang menarik.
+- **MySQL:** Sistem manajemen basis data relasional untuk menyimpan dan mengelola data portofolio.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Cara Penggunaan
+1. Pastikan PHP dan MySQL sudah terpasang di komputer lokal Anda.
+2. Clone repositori ini ke komputer Anda.
+3. Konfigurasikan koneksi basis data MySQL di file `.env`.
+4. Jalankan `composer install` untuk menginstal dependensi PHP.
+5. Jalankan `php artisan migrate` untuk membuat tabel-tabel yang diperlukan di dalam basis data.
+6. Buka aplikasi di browser Anda dan mulailah mengelola portofolio perusahaan Anda!
 
-## Learning Laravel
+## Kontribusi
+Silakan berkontribusi dengan melaporkan masalah, mengajukan permintaan fitur, atau memberikan saran untuk meningkatkan proyek ini. Kami menyambut kolaborasi dari semua pengembang.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Terima kasih
